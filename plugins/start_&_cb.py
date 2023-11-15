@@ -64,9 +64,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+HzGpLAZXTxoyYTNl'),
+                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+qGxmFsyeYVw3NmE9'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+mCdsJ7mjeBEyZWQ1')
+                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+fNwFATC-IBU2YjA1')
             ], [
                 InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
