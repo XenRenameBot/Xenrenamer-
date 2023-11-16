@@ -36,8 +36,6 @@ class Txt(object):
 I'm a Simple File Renamer + File to Video bot with support for features like thumbnail, custom caption support and more! 
 
 This bot is managed by @SupernovaNetwork!
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-➩ Want Your Own Bot? : <b><a href=https://t.me/not_xenov>Contact here</a></b>
 """
 
     ABOUT_TXT = """<b>⋉ Owner : <a href=https://t.me/xenov7x>𝙓𝙚𝙣𝙤𝙫</a>
