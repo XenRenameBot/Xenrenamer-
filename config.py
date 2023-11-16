@@ -32,7 +32,7 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """<b><b>Hey {mention} ,</b>
+    START_TXT = """<b><b>Hey {} ,</b>
 I'm a Simple File Renamer + File to Video bot with support for features like thumbnail, custom caption support and more! 
 
 This bot is managed by @SupernovaNetwork!
