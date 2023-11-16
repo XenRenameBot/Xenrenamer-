@@ -20,12 +20,12 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+qGxmFsyeYVw3NmE9'),
+            '⛅ Updates', url='https://t.me/+qGxmFsyeYVw3NmE9'),
         InlineKeyboardButton(
-            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+fNwFATC-IBU2YjA1')
+            '🌨️ Support', url='https://t.me/+fNwFATC-IBU2YjA1')
     ], [
-        InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
+        InlineKeyboardButton('☃️ About', callback_data='about'),
+        InlineKeyboardButton('❗ Help', callback_data='help')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)
@@ -64,12 +64,12 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+qGxmFsyeYVw3NmE9'),
+                    '⛅ Updates', url='https://t.me/+qGxmFsyeYVw3NmE9'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+fNwFATC-IBU2YjA1')
+                    '🌨️ Support', url='https://t.me/+fNwFATC-IBU2YjA1')
             ], [
-                InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('☃️ About', callback_data='about'),
+                InlineKeyboardButton('❗ Help', callback_data='help')
             ]])
         )
     elif data == "help":
